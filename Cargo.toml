@@ -1,0 +1,13 @@
+[package]
+name = "necron"
+version = "0.1.0"
+description = "Declarative cron-like command orchestration tool."
+authors = ["Vladislav Mamon <vlad@nrsk.dev>"]
+edition = "2021"
+publish = true
+
+[profile.release]
+lto = "thin"
+opt-level = "s"
+panic = "abort"
+debug = false
