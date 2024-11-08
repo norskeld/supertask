@@ -1,5 +1,5 @@
 [package]
-name = "necron"
+name = "retask"
 version = "0.1.0"
 description = "Declarative cron-like command orchestration tool."
 authors = ["Vladislav Mamon <vlad@nrsk.dev>"]
