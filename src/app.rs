@@ -113,5 +113,5 @@ fn get_config_path() -> Result<String, std::io::Error> {
 }
 
 fn run_parse_check(_expressions: Vec<String>) {
-  ()
+  todo!()
 }
