@@ -1,10 +1,19 @@
 [package]
-name = "retask"
+name = "supertask"
 version = "0.1.0"
 description = "Declarative cron-like command orchestration tool."
 authors = ["Vladislav Mamon <vlad@nrsk.dev>"]
 edition = "2021"
 publish = true
+
+[dependencies]
+anyhow = { version = "1.0.93" }
+bincode = { version = "1.3.3" }
+clap = { version = "4.5.20", features = ["derive"] }
+serde = { version = "1.0.214", features = ["derive"] }
+tempfile = "3.14.0"
+thiserror = "2.0.3"
+tokio = { version = "1.41.1", features = ["full"] }
 
 [profile.release]
 lto = "thin"
